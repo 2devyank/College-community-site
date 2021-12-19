@@ -4,7 +4,7 @@ function LandingPage() {
     return (
         <div className="LandingPage">
             <h2>This is Landing Page</h2>
-            <Link to="/home">Go to HomePage</Link>
+            <Link to="/auth">Login or Register</Link>
         </div>
     )
 }
