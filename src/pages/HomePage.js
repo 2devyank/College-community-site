@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom"
-import MembersSection from "../components/MembersSection"
-import MessageSection from "../components/MessageSection"
-import NotificationSection from "../components/NotificationSection"
-import Sidebar from "../components/Sidebar"
-import Topbar from "../components/Topbar"
+import MembersSection from "../components/homePage/MembersSection"
+import MessageSection from "../components/homePage/MessageSection"
+import NotificationSection from "../components/homePage/NotificationSection"
+import Sidebar from "../components/homePage/Sidebar"
+import Topbar from "../components/homePage/Topbar"
 
 function HomePage() {
     return (
