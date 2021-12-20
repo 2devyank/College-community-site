@@ -1,0 +1,36 @@
+.MembersSection {
+  position: relative;
+  overflow-y: scroll;
+  box-shadow: 0px -2px 10px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px -2px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -2px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.MembersSection > .heading {
+  background: #262626;
+  color: rgb(255, 171, 74);
+  font-weight: 700;
+  font-size: large;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(68, 68, 68);
+}
+
+.MemberItem > img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* scroll bar design begins */
+
+.MembersSection::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+.MembersSection::-webkit-scrollbar-thumb {
+  background-color: rgb(109, 109, 109);
+  border-radius: 5px;
+}
