@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
+  background-color: #262626;
 }
 
 code {
@@ -19,7 +20,7 @@ code {
   background-color: #262626;
   display: flex;
   flex-direction: column;
-  border-bottom: 1px solid #4f4d8c;
+  border-bottom: 1px solid #474073;
 }
 
 .mainSection_homePage {
@@ -31,11 +32,12 @@ code {
   background-color: #363636;
   width: 24rem;
   height: calc(100vh - 3rem);
-  border-right: 1px solid #4f4d8c;
+  border-right: 1px solid #474073;
 }
 
 .MessageSection {
-  background-color: #382c3f;
+  background-color: #8f8ebf;
+  color: black;
   width: calc(100vw - 30rem);
   height: calc(100vh - 3rem);
 }
@@ -49,13 +51,13 @@ code {
   background-color: #363636;
   width: 24rem;
   height: 26rem;
-  border-bottom: 1px solid #4f4d8c;
-  border-left: 1px solid #4f4d8c;
+  border-bottom: 1px solid #474073;
+  border-left: 1px solid #474073;
 }
 
 .MembersSection {
   background-color: #363636;
   width: 24rem;
   height: calc(100vh - 29rem);
-  border-left: 1px solid #4f4d8c;
+  border-left: 1px solid #474073;
 }
