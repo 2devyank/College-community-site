@@ -17,7 +17,7 @@ code {
 .Topbar {
   height: 3rem;
   width: 100%;
-  background-color: #262626;
+  background-color: #1d1d1d;
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid #474073;
@@ -29,7 +29,7 @@ code {
 }
 
 .Sidebar {
-  background-color: #363636;
+  background-color: #262626;
   width: 24rem;
   height: calc(100vh - 3rem);
   border-right: 1px solid #474073;
@@ -48,7 +48,7 @@ code {
 }
 
 .NotificationSection {
-  background-color: #363636;
+  background-color: #262626;
   width: 24rem;
   height: 26rem;
   border-bottom: 1px solid #474073;
@@ -56,7 +56,7 @@ code {
 }
 
 .MembersSection {
-  background-color: #363636;
+  background-color: #262626;
   width: 24rem;
   height: calc(100vh - 29rem);
   border-left: 1px solid #474073;
