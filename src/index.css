@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 
 code {
@@ -13,11 +14,12 @@ code {
 }
 
 .Topbar {
-  height: 5rem;
+  height: 3rem;
   width: 100%;
-  background-color: royalblue;
+  background-color: #262626;
   display: flex;
   flex-direction: column;
+  border-bottom: 1px solid #4f4d8c;
 }
 
 .mainSection_homePage {
@@ -26,15 +28,16 @@ code {
 }
 
 .Sidebar {
-  background-color: blueviolet;
-  width: 6rem;
-  height: calc(100vh - 5rem);
+  background-color: #363636;
+  width: 24rem;
+  height: calc(100vh - 3rem);
+  border-right: 1px solid #4f4d8c;
 }
 
 .MessageSection {
-  background-color: yellowgreen;
+  background-color: #382c3f;
   width: calc(100vw - 30rem);
-  height: calc(100vh - 5rem);
+  height: calc(100vh - 3rem);
 }
 
 .rightSection_homePage {
@@ -43,13 +46,16 @@ code {
 }
 
 .NotificationSection {
-  background-color: pink;
+  background-color: #363636;
   width: 24rem;
-  height: 24rem;
+  height: 26rem;
+  border-bottom: 1px solid #4f4d8c;
+  border-left: 1px solid #4f4d8c;
 }
 
 .MembersSection {
-  background-color: aqua;
+  background-color: #363636;
   width: 24rem;
   height: calc(100vh - 29rem);
+  border-left: 1px solid #4f4d8c;
 }
