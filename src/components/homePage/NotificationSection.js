@@ -34,7 +34,7 @@ function NotificationSection() {
     ]
 
     return (
-        <div className="NotificationSection container">
+        <div className="NotificationSection container scrollable-container">
             <div className='heading sticky-top'>EVENTS</div>
             {
                 eventList.map((event, index) => {

@@ -8,7 +8,6 @@
 
 .MembersSection > .heading {
   background: #262626;
-  color: rgb(255, 171, 74);
   font-weight: 700;
   font-size: large;
   letter-spacing: 1px;
@@ -21,16 +20,4 @@
   height: 20px;
   border-radius: 50%;
   margin-right: 10px;
-}
-
-/* scroll bar design begins */
-
-.MembersSection::-webkit-scrollbar {
-  width: 5px;
-}
-
-/* Handle */
-.MembersSection::-webkit-scrollbar-thumb {
-  background-color: rgb(109, 109, 109);
-  border-radius: 5px;
 }
