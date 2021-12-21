@@ -1,5 +1,5 @@
 import '../../styles/messageSection.css'
-import Tempdata from '../Tempdata'
+import Tempdata from './Tempdata'
 import Chatinput from './Chatinput'
 
 

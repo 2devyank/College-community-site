@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/messageSection.css'
+import '../../styles/messageSection.css'
 function Tempdata() {
     const eventList = [
         {
