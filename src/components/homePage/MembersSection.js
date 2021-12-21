@@ -47,7 +47,7 @@ function MembersSection() {
     ]
 
     return (
-        <div className="MembersSection container">
+        <div className="MembersSection container scrollable-container">
             <div className='heading sticky-top'>MEMBERS</div>
             {
                 memberList.map((member, index) => {
