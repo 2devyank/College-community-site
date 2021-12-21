@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import '../../styles/Auth.css'
 function Login({toggleAuth}) {
     return (
-        <div className="Login">
+        <div className="Login" id='Login'>
             <form action="/home">
-            <div className="container-fluid">
+            <div className="container-fluid auth-container">
                 <div className="row toggle-row">
                     <div className="col-6 Login-Button">
                         <div className='ActiveToggle togButtons'>LOGIN</div>

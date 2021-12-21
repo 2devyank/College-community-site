@@ -3,7 +3,7 @@ function Register({toggleAuth}) {
     return (
         <div className="Register">
             <form action="/home">
-            <div className="container-fluid">
+            <div className="container-fluid auth-container">
                 <div className="row toggle-row">
                     <div className="col-6 Login-Button">
                         <div className='togButtons' onClick={() => toggleAuth(true)}>LOGIN</div>
