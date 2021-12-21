@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
-
+import '../../styles/Login.css'
 function Login({toggleAuth}) {
     return (
         <div className="Login">
-            This is Login component
-            <div className="container justify-content-center">
-                <div className="row align-items-centre">
-                    <div className="col-3 Login-Button">
-                        <button>LOGIN</button>
+            <div className="container justify-content-center login-contain">
+                <div className="row toggle-row">
+                    <div className="col-6 Login-Button">
+                        <div className='ActiveToggle togButtons'>LOGIN</div>
                     </div>
-                    <div className="col-3 SignUp-Button">
-                        <button onClick={() => toggleAuth(false)}>SIGN UP</button>
+                    <div className="col-6 SignUp-Button">
+                        <div className='togButtons' onClick={() => toggleAuth(false)}>SIGN UP</div>
                     </div>
                 </div>
 
@@ -22,7 +21,7 @@ function Login({toggleAuth}) {
                         <input type="password" placeholder='Password'/>
                     </div>
                     <div className='col-12'>
-                        <input type="submit" value='Submit'/>
+                        <input className='Submit-Button' type="submit" value='Submit'/>
                     </div>
                 </div>
             </div>

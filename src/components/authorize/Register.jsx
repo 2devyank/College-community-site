@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
-
+import '../../styles/Register.css'
 function Register({toggleAuth}) {
     return (
         <div className="Register">
-            This is register component
-            <div className="container justify-content-center">
-                <div className="row align-items-centre">
-                    <div className="col-3 Login-Button">
-                        <button onClick={() => toggleAuth(true)}>LOGIN</button>
+            <div className="container justify-content-center register-contain">
+                <div className="row toggle-row">
+                    <div className="col-6 Login-Button">
+                        <div className='togButtons' onClick={() => toggleAuth(true)}>LOGIN</div>
                     </div>
-                    <div className="col-3 SignUp-Button">
-                        <button>SIGN UP</button>
+                    <div className="col-6 SignUp-Button">
+                        <div className='ActiveToggle togButtons'>SIGN UP</div>
                     </div>
                 </div>
 
@@ -28,7 +27,7 @@ function Register({toggleAuth}) {
                         <input type="password" placeholder='Confirm Password'/>
                     </div>
                     <div className='col-12'>
-                        <input type="submit" value='Submit'/>
+                        <input className='Submit-Button' type="submit" value='Submit'/>
                     </div>
                 </div>
             </div>
