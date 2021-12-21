@@ -30,13 +30,13 @@ code {
 
 .Sidebar {
   background-color: #262626;
-  width: 24rem;
+  width: 18rem;
   height: calc(100vh - 3rem);
   border-right: 1px solid #474073;
 }
 
 .MessageSection {
-  background-color: #8f8ebf;
+  background-color:blue;
   color: black;
   width: calc(100vw - 30rem);
   height: calc(100vh - 3rem);
