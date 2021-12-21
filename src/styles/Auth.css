@@ -1,0 +1,50 @@
+div{
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+}
+.container-fluid {
+    padding-top: 3px;
+    margin-top: 15vh;
+    width: 20vw;
+    min-width: 300px;
+    height: fit-content;
+    background-color: #3d3b3b;
+    border-radius: 25px;
+}
+input{
+    margin-top: 4%;
+    width: 100%;
+    background-color: #3d3b3b;
+    color: white;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.toggle-row{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+}
+.ActiveToggle{
+    background-color: #474073;
+}
+.togButtons{
+    border-radius: 10px;
+    
+}
+.togButtons:hover{
+    background-color: #8f8ebf4d;
+}
+
+.Submit-Button{
+    background-color: #474073;
+    margin-bottom: 10px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.row{
+    margin-top: 10px;
+}
