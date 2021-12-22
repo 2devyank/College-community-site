@@ -28,7 +28,7 @@ code {
   flex-direction: row;
 }
 
-.Sidebar {
+.sidebar {
   background-color: #262626;
   width: 18rem;
   height: calc(100vh - 3rem);
