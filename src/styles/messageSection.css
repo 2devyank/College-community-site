@@ -27,7 +27,7 @@ font-size:14px;
 .Chatcontainer{
 flex:0.7;
 flex-grow:1;
-
+background:  #262626;
 margin-top:0px;
 margin-left:10px;
 margin-right:10px;
@@ -58,7 +58,9 @@ margin-right:10px;
  .Messagecontainer{
  display:flex;
  padding:10px;
- align-items:center;}
+ align-items:center;
+background:  #262626;
+}
  
  .Messagecontainer img{
      height:30px;
@@ -86,7 +88,7 @@ margin-top:-30px ;
   }
   .inputSection {
     background-color: #262626;
-    width: 41rem;
+    width: calc(100vh-41rem);
     height: 26rem;
     
   }

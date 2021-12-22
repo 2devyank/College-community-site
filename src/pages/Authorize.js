@@ -2,12 +2,12 @@ import Login from "../components/authorize/Login.jsx"
 import Register from "../components/authorize/Register.jsx"
 import { Link } from "react-router-dom"
 import React, { useState } from 'react';
-
+import '../styles/Auth.css'
 function Authorize() {
     const [AuthTog, toggleAuth] = useState(true);
     return (
         <div className="Authorize">
-            <h2>This is Authentication Page</h2>
+            
             { AuthTog && <Login
                     toggleAuth = {toggleAuth}
                 /> }

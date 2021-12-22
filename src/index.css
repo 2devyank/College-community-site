@@ -36,7 +36,8 @@ code {
 }
 
 .MessageSection {
-  background-color:blue;
+  /* background-color:blue; */
+  /* background-color: #262626; */
   color: black;
   width: calc(100vw - 30rem);
   height: calc(100vh - 3rem);
