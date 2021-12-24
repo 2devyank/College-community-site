@@ -16,7 +16,7 @@ function Login({toggleAuth}) {
 
                 <div className='row align-items-center'>
                     <div className='col-1'>
-                        <i class="fas fa-user"></i>
+                        <i  class="fas fa-user"></i>
                     </div>
                     <div className='col'>
                         <input type="text" placeholder='Email'/>

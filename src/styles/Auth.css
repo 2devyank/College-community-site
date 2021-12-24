@@ -4,15 +4,21 @@
     width: 20vw;
     min-width: 300px;
     height: fit-content;
-    background-color: #3d3b3b;
+    background-color: transparent;
     border-radius: 25px;
     text-align: center;
+    border: 1px gray solid;
     font-size: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
 .auth-container .row .col input{
     margin-top: 4%;
     width: 100%;
-    background-color: #3d3b3b;
+    /* background-color: #3d3b3b; */
+    background-color: transparent;
+    border: 1px gray solid;
     color: white;
     outline: none;
     border: none;
@@ -25,13 +31,13 @@
     height: 40px;
 }
 .ActiveToggle{
-    background-color: #474073;
+    background-color: #068b8b;
 }
 .togButtons{
     border-radius: 10px;
 }
 .togButtons:hover{
-    background-color: #8f8ebf4d;
+    background-color: #23bb7c4d;
 }
 
 .Submit-Button{
@@ -40,7 +46,7 @@
     outline: none;
     border: none;
     border-bottom: 1px solid white;
-    background-color: #474073;
+    background-color: #0d7e65;
     margin-bottom: 10px;
     color: white;
     border-radius: 20px;
@@ -48,6 +54,9 @@
 .auth-container .row{
     margin-top: 10px;
 }
-/* .Authorize{ 
-     background-color: blanchedalmond !important; 
-  }  */
+/* .bigcontainer{
+    background: linear-gradient(white,rgb(176, 176, 255));
+    display: flex;
+    height: calc(100vh-43rem);
+    justify-content: center;
+} */
