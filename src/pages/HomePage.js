@@ -3,7 +3,7 @@ import MembersSection from "../components/homePage/MembersSection"
 import MessageSection from "../components/homePage/MessageSection"
 import NotificationSection from "../components/homePage/NotificationSection"
 import Sidebar from "../components/homePage/Sidebar"
-import Topbar from "../components/homePage/Topbar"
+import Topbar from "../components/Topbar"
 
 function HomePage() {
     return (
