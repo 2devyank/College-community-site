@@ -6,6 +6,8 @@ import '../styles/Auth.css'
 function Authorize() {
     const [AuthTog, toggleAuth] = useState(true);
     return (
+       
+
         <div className="Authorize">
             
             { AuthTog && <Login
@@ -15,6 +17,7 @@ function Authorize() {
                     toggleAuth = {toggleAuth}
                 /> }
         </div>
+       
     )
 }
 
