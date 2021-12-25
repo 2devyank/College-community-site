@@ -1,5 +1,5 @@
 import React from "react";
-
+import Profile from "./Profile";
 const Topbar = (props) => {
   return (
     <div>
